@@ -87,14 +87,14 @@ div {
 
 @keyframes slidebg {
     to {
-        background-position: 20vw;
+        background-position: 100vw;
     }
 }
 
 main {
     /*background: linear-gradient(45deg, #000428, #004e92);*/
-    background-image: linear-gradient(45deg, #004e92, #000428);
-    animation: slidebg 5s alternate infinite;
+    background-image: linear-gradient(90deg, #004e92 0%, #000428 50%, #004e92 100%);
+    animation: slidebg 2s linear infinite;
     padding: 60px 10px 20px 35%;
     /*animation-name: back;
     animation-duration: 5s;
